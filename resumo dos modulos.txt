@@ -1,0 +1,234 @@
+Resumo do Módulo 1: Fundamentos do JavaScript
+
+Introdução ao JavaScript
+
+Visão geral do JavaScript e seu papel no desenvolvimento web.
+Uso do console para exibir mensagens e variáveis.
+Variáveis e Tipos de Dados
+
+Declaração de variáveis usando var, let, e const.
+Tipos de dados: strings e números, e boas práticas para nomeação e uso.
+Operações Matemáticas
+
+Operações básicas: adição, subtração, multiplicação e divisão.
+Manipulação e formatação de números, incluindo arredondamento.
+Manipulação do DOM
+
+Interação com a estrutura HTML e atualização dinâmica do conteúdo da página.
+Funções e Eventos
+
+Definição e uso de funções para organização e reutilização do código.
+Captura e manipulação de eventos de formulário para interação do usuário.
+Conversão e Manipulação de Dados
+
+Conversão de dados de entrada para tipos numéricos.
+Técnicas para verificar e manipular valores não numéricos.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 2: Avançando no JavaScript
+
+Operadores de Comparação e Lógicos
+
+Comparação: >, <, >=, <=, ===, !==.
+Lógicos: && (E) e || (OU) para combinar condições.
+Valores Falsos e Operador Lógico OR (||)
+
+Valores falsos: null, undefined, 0, e false.
+Uso do operador || para fornecer valores padrão.
+Operador Ternário
+
+Sintaxe: (condição ? valorSeVerdadeiro : valorSeFalso) para condicionalmente escolher valores.
+Rest e Spread Operators
+
+Rest (...rest): Coleta múltiplos argumentos em um array.
+Spread (...): Expande arrays e objetos em elementos individuais.
+Estruturas de Repetição e Controle
+
+Laços: for in, do...while, continue, break.
+Funções e Tratamento de Erros
+
+Criação de funções e validação de tipos.
+Tratamento de erros com try...catch.
+Manipulação de DOM e Eventos
+
+Criação e modificação de elementos HTML.
+Adição de eventos como cliques e pressionamentos de teclas.
+Armazenamento Local
+
+Uso de localStorage para armazenar dados persistentes entre sessões.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 3: Funções e Objetos
+
+Declaração de Função e Hoisting
+
+Funções declaradas são elevadas (hoisted) e podem ser chamadas antes de sua definição.
+Funções como Objetos de Primeira Classe
+
+Funções como expressões e métodos de objetos.
+Arrow functions: Sintaxe concisa e sem this próprio.
+Rest e Spread
+
+Rest (...args): Coleta argumentos em um array.
+Spread (...): Expande elementos de arrays e objetos.
+Closures e Funções de Retorno
+
+Funções retornando outras funções e IIFE (Immediately Invoked Function Expressions).
+Funções e Objetos
+
+Função de fábrica e função construtora para criar instâncias de objetos.
+Geradores (Generators)
+
+Funções geradoras (function* e yield) para gerar valores iterativamente.
+Calculadora com JavaScript
+
+Implementação de uma calculadora básica com eventos.
+Funções no Contexto de Objetos e Prototypes
+
+Métodos de objetos, getters e setters.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 4: Funções e Objetos Avançados
+
+Declaração de Função e Hoisting
+
+A função falaOi é elevada e pode ser chamada antes de sua definição.
+Funções como Objetos de Primeira Classe
+
+Funções como expressões e métodos de objeto.
+Arrow functions e métodos de objeto.
+Parâmetros de Função
+
+Rest Parameters (...args): Aceita um número variável de argumentos.
+Funções Retornando Outras Funções
+
+Criação de funções personalizadas.
+Funções e Callbacks
+
+Uso de callbacks e setTimeout para operações assíncronas.
+Immediately Invoked Function Expression (IIFE)
+
+Função executada imediatamente após a definição.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 5: Funções Construtoras e Prototipagem
+
+Funções Construtoras e Congelamento de Objetos
+
+Funções construtoras criam objetos com propriedades e métodos.
+Object.freeze impede alterações em um objeto.
+Definição de Propriedades com Object.defineProperty
+
+Controle sobre propriedades, incluindo getters e setters.
+Prototipagem e Herança
+
+Adição de métodos a objetos através de protótipos.
+Herança prototípica para compartilhar métodos entre objetos.
+Encapsulamento
+
+Restrição de acesso a partes de um objeto.
+Métodos Específicos
+
+Métodos de protótipo e herança de métodos.
+Instanciação e Modificação
+
+Criação e manipulação de instâncias de objetos.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 6: Classes e Validação
+
+Funções Construtoras vs. Classes
+
+Classes oferecem uma sintaxe mais moderna para criar objetos e definir métodos.
+Herança em Classes
+
+Herança e sobrescrita de métodos em classes derivadas.
+Métodos Estáticos
+
+Métodos pertencem à classe e não a instâncias específicas.
+Manipulação de Propriedades de Instância
+
+Uso de Object.defineProperty para definir propriedades.
+Validação de Dados e Formulários
+
+Criação de métodos para validar dados e verificar campos de formulários.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 7: Promises e Async/Await
+
+Promises em JavaScript
+
+Criação e manipulação de promessas com .then() e .catch().
+Encadeamento de promessas para executar operações assíncronas.
+Tratamento de Erros em Promises
+
+Captura e tratamento de erros com .catch().
+Funções Assíncronas e await
+
+Uso de async e await para simplificar o código assíncrono.
+Funções de Ordem Superior
+
+Funções que retornam promessas e uso de Promise.resolve.
+Compreensão de Estado de Promessa
+
+Estados de uma promessa: pendente, resolvida ou rejeitada.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 8: Ferramentas e Softwares
+
+Babel
+
+Transpila código ES6+ para versões mais antigas do JavaScript compatíveis com mais navegadores.
+Webpack
+
+Empacotador de módulos que gera arquivos de saída e pode lidar com minificação e transpilação.
+core-js e regenerator-runtime
+
+Bibliotecas para suportar novas funcionalidades do JavaScript e transformações de código assíncrono.
+Módulos do ES6
+
+import e export para organizar o código em módulos reutilizáveis.
+Projetos Práticos
+
+Gerador de CPF Válidos: Criação de um gerador de números de CPF válidos.
+Gerador de Senha: Criação de um gerador de senhas com características específicas.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 9: Manipulação de APIs com Fetch
+
+Requisições HTTP
+
+Uso de fetch() para realizar requisições e obter dados de uma API.
+Tratamento de Respostas
+
+Conversão de dados com métodos como .json().
+Tratamento de Erros em Requisições
+
+Captura e tratamento de erros com .catch().
+Uso de Async/Await com Fetch
+
+Simplificação do código assíncrono com async e await.
+Manipulação de Dados
+
+Transformação de dados após obtenção da API.
+Interação com o DOM
+
+Atualização da interface do usuário com base nos dados da API.
+Estrutura e Organização do Código
+
+Modularização do código para melhorar a organização e reutilização.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Resumo do Módulo 10: Projeto Final
+
+Aplicação dos conceitos aprendidos em um projeto final, combinando todas as tecnologias e conceitos estudados para desenvolver um projeto completo.
+Tecnologias Trabalhadas: JavaScript, HTML, CSS, APIs.
