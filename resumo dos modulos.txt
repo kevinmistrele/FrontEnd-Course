@@ -204,31 +204,21 @@ Gerador de Senha: Criação de um gerador de senhas com características especí
 
 Resumo do Módulo 9: Manipulação de APIs com Fetch
 
-Requisições HTTP
+NPM: Gerencia pacotes e bibliotecas, facilitando a instalação de funcionalidades extras e garantindo que tudo funcione corretamente.
 
-Uso de fetch() para realizar requisições e obter dados de uma API.
-Tratamento de Respostas
+Express: Framework para criar servidores web, com recursos como rotas, middlewares, e templates para gerar páginas dinâmicas.
 
-Conversão de dados com métodos como .json().
-Tratamento de Erros em Requisições
+Middlewares: Manipulam dados das requisições antes de chegar às rotas, como autenticação de usuários.
 
-Captura e tratamento de erros com .catch().
-Uso de Async/Await com Fetch
+Routing: Direciona o usuário para a parte certa do site, organizando as rotas de forma modular.
 
-Simplificação do código assíncrono com async e await.
-Manipulação de Dados
+Helmet: Adiciona proteções automáticas contra ataques, melhorando a segurança do servidor.
 
-Transformação de dados após obtenção da API.
-Interação com o DOM
-
-Atualização da interface do usuário com base nos dados da API.
-Estrutura e Organização do Código
-
-Modularização do código para melhorar a organização e reutilização.
+MongoDB: Banco de dados NoSQL que armazena dados em formato JSON, integrado ao Express para gerenciar dados de forma dinâmica.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Resumo do Módulo 10: Projeto Final
 
 Aplicação dos conceitos aprendidos em um projeto final, combinando todas as tecnologias e conceitos estudados para desenvolver um projeto completo.
-Tecnologias Trabalhadas: JavaScript, HTML, CSS, APIs.
+Tecnologias Trabalhadas: JavaScript, HTML, CSS, Node.
